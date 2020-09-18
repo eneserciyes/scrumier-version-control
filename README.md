@@ -22,3 +22,7 @@ Centralized version control project for Scrumier.
         Starter for exposing Spring Data repositories over REST using Spring Data REST. Go to the [repository](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-rest) for more details.
     - #### spring-boot-starter-actuator
         Starter for using Spring Boot's Actuator which provides production ready features to help you monitor and manage your application. Go to the [repository](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator) for more details.
+    - #### spring-cloud-starter-zipkin
+         Spring Cloud Starter Zipkin. Go to the [repository](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zipkin) for more details.
+    - #### spring-rabbit
+        RabbitMQ is an open-source message-broker software. Go to the [repository](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit) for more details.
