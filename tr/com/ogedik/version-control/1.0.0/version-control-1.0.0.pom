@@ -27,8 +27,8 @@
         <dockerfile.maven.plugin.version>1.4.10</dockerfile.maven.plugin.version>
         <mapstruct.version>1.3.1.Final</mapstruct.version>
         <commons.version>1.0-SNAPSHOT</commons.version>
-        <zipkin.version>2.2.5.RELEASE</zipkin.version>
-        <rabbitmq.version>2.2.7.RELEASE</rabbitmq.version>
+<!--        <zipkin.version>2.2.5.RELEASE</zipkin.version>-->
+<!--        <rabbitmq.version>2.2.7.RELEASE</rabbitmq.version>-->
         <github.global.server>github</github.global.server>
     </properties>
 
@@ -76,20 +76,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-        <!-- Spring Cloud Starter Zipkin -->
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zipkin -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-            <version>${zipkin.version}</version>
-        </dependency>
-        <!-- RabbitMQ is an open-source message-broker software -->
-        <!-- https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit -->
-        <dependency>
-            <groupId>org.springframework.amqp</groupId>
-            <artifactId>spring-rabbit</artifactId>
-            <version>${rabbitmq.version}</version>
-        </dependency>
+<!--        &lt;!&ndash; Spring Cloud Starter Zipkin &ndash;&gt;-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zipkin &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-zipkin</artifactId>-->
+<!--            <version>${zipkin.version}</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; RabbitMQ is an open-source message-broker software &ndash;&gt;-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.amqp</groupId>-->
+<!--            <artifactId>spring-rabbit</artifactId>-->
+<!--            <version>${rabbitmq.version}</version>-->
+<!--        </dependency>-->
         <!-- Starter for testing Spring Boot applications with libraries including JUnit, Hamcrest and Mockito -->
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
         <dependency>
